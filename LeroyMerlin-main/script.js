@@ -181,7 +181,7 @@ if (loginForm) {
       sessionStorage.setItem("lm_logado", u);
     } catch {}
 
-    location.href = "inicio.html";
+    location.href = "index.html";
   });
 
   $("forgot").addEventListener("click", e => {
